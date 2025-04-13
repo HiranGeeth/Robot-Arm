@@ -10,7 +10,7 @@ Servo myservo;
 int pos = 0;    
 
 void setup() {
-  myservo.attach(25);  // Attach the servo to GPIO pin
+  myservo.attach(33);  // Attach the servo to GPIO pin
 }
 
 void loop() {

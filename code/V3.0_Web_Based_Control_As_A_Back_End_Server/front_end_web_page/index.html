@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyDeals - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <div class="logo">MyDeals</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Deals</a>
+        <a href="#">Shop</a>
+        <a href="#">My Cart</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <div class="search">
+        <input type="text" placeholder="Search products...">
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to MyDeals!</h1>
+    <p>Top Offers, Amazing Prices.</p>
+  </section>
+
+  <section class="categories">
+    <h2>Categories</h2>
+    <ul>
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Home & Kitchen</a></li>
+      <li><a href="#">Groceries</a></li>
+      <li><a href="#">Beauty</a></li>
+      <li><a href="#">More...</a></li>
+    </ul>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="Products/JBL-Flip-5-Portable-Speaker.jpg" alt="Product 1">
+          <div class="product-name">JBL Flip 5 Eco Edition | Portable Speaker | JBL</div>
+        </div>
+        <button onclick="sendProduct(1)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <<img src="Products/CH Ladies Bag.avif" alt="Product 2">
+          <div class="product-name">CH Ladies Bag | Large Capacity Bag | CH</div>
+        </div>
+        <button onclick="sendProduct(2)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="Products/Watch-NF9163-5.webp" alt="Product 3">
+          <div class="product-name">NavyForce 9163 Luxury Sport Wrist Watch| NAVYFORCE</div>
+        </div>
+        <button onclick="sendProduct(3)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="Products/Knife.jpg" alt="Product 4">
+          <div class="product-name">Xinzuo 8" Japanese Chef Knife | XINZUO</div>
+        </div>
+        <button onclick="sendProduct(4)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="image-wrapper">
+          <img src="Products/HiBrew Milk Frother.jpg" alt="Product 4">
+          <div class="product-name">HiBrew Electric Milk Frother | HIBREW</div>
+        </div>
+        <button onclick="sendProduct(5)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyDeals Inc.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
