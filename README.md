@@ -30,6 +30,11 @@ The main code consists of:
 - **Ensuring stable operation with incremental motion control**
 - **V3.0-Web-Based Control: Enable users to control the arm remotely via a website.**
 
+## Languages Used
+- **C++ - Esp32 processsing and controls**
+- **html,css - Front End Development**
+- **Javascript - Front End Development**
+
 ## Future Improvements
 
 - **AI Integration**: Implement object recognition for intelligent sorting.
